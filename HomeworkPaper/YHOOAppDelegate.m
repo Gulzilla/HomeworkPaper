@@ -7,6 +7,7 @@
 //
 
 #import "YHOOAppDelegate.h"
+#import "HeadlineViewController.h"
 
 @implementation YHOOAppDelegate
 
@@ -15,6 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[HeadlineViewController alloc]init];
     [self.window makeKeyAndVisible];
     return YES;
 }

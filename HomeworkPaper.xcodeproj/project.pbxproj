@@ -19,6 +19,8 @@
 		9250C52F1959441E00149FE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9250C5171959441E00149FE6 /* UIKit.framework */; };
 		9250C5371959441E00149FE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9250C5351959441E00149FE6 /* InfoPlist.strings */; };
 		9250C5391959441E00149FE6 /* HomeworkPaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9250C5381959441E00149FE6 /* HomeworkPaperTests.m */; };
+		9250C5451959444900149FE6 /* HeadlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9250C5431959444900149FE6 /* HeadlineViewController.m */; };
+		9250C5461959444900149FE6 /* HeadlineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9250C5441959444900149FE6 /* HeadlineViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		9250C5341959441E00149FE6 /* HomeworkPaperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeworkPaperTests-Info.plist"; sourceTree = "<group>"; };
 		9250C5361959441E00149FE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9250C5381959441E00149FE6 /* HomeworkPaperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeworkPaperTests.m; sourceTree = "<group>"; };
+		9250C5421959444900149FE6 /* HeadlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadlineViewController.h; sourceTree = "<group>"; };
+		9250C5431959444900149FE6 /* HeadlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlineViewController.m; sourceTree = "<group>"; };
+		9250C5441959444900149FE6 /* HeadlineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadlineViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		9250C5071959441E00149FE6 = {
 			isa = PBXGroup;
 			children = (
+				9250C5421959444900149FE6 /* HeadlineViewController.h */,
+				9250C5431959444900149FE6 /* HeadlineViewController.m */,
+				9250C5441959444900149FE6 /* HeadlineViewController.xib */,
 				9250C5191959441E00149FE6 /* HomeworkPaper */,
 				9250C5321959441E00149FE6 /* HomeworkPaperTests */,
 				9250C5121959441E00149FE6 /* Frameworks */,
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9250C51E1959441E00149FE6 /* InfoPlist.strings in Resources */,
+				9250C5461959444900149FE6 /* HeadlineViewController.xib in Resources */,
 				9250C5261959441E00149FE6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9250C5201959441E00149FE6 /* main.m in Sources */,
+				9250C5451959444900149FE6 /* HeadlineViewController.m in Sources */,
 				9250C5241959441E00149FE6 /* YHOOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +371,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomeworkPaper/HomeworkPaper-Prefix.pch";
 				INFOPLIST_FILE = "HomeworkPaper/HomeworkPaper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomeworkPaper/HomeworkPaper-Prefix.pch";
 				INFOPLIST_FILE = "HomeworkPaper/HomeworkPaper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
